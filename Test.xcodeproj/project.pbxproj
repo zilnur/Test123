@@ -58,14 +58,14 @@
 		BC0B4BDB2EC4BD9E0098CEF8 /* Exceptions for "434353534" folder in "Test" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				ViewModel.swift,
+				123ViewModel.swift,
 			);
 			target = BC87C18D2EA4CE0B0009368A /* Test */;
 		};
 		BC0B4BDC2EC4BD9E0098CEF8 /* Exceptions for "434353534" folder in "434353534" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				ViewModel.swift,
+				123ViewModel.swift,
 			);
 			target = BC0B4BCF2EC4BCF50098CEF8 /* 434353534 */;
 		};
