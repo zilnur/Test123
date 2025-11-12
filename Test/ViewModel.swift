@@ -13,15 +13,15 @@ protocol TopLeadingViewModel: ObservableObject {
 	func changeTopLeadingState(_ string: String)
 }
 
-protocol TopTrailingViewModel: ObservableObject {
-	var topTrailingState: String { get }
-	func changeTopTrailingState(_ string: String)
-}
-
-protocol BottomLeadingViewModel: ObservableObject {
-	var bottomLeadingState: String { get }
-	func changeBottomLeadingState(_ string: String)
-}
+//protocol TopTrailingViewModel: ObservableObject {
+//	var topTrailingState: String { get }
+//	func changeTopTrailingState(_ string: String)
+//}
+//
+//protocol BottomLeadingViewModel: ObservableObject {
+//	var bottomLeadingState: String { get }
+//	func changeBottomLeadingState(_ string: String)
+//}
 
 protocol BottomTrailingViewModel: ObservableObject {
 	var bottomTrailingState: String { get }
@@ -31,16 +31,16 @@ protocol BottomTrailingViewModel: ObservableObject {
 class ViewModel1 {
 	
 	@Published
-	private var model1 = ""
+	private var model1 = "kewufewujnfewf"
 	
 	@Published
-	private var model2 = ""
+	private var model2 = "rwkgnbhwegf"
 	
 	@Published
-	private var model3 = ""
+	private var model3 = "wkrifnjwef"
 	
 	@Published
-	private var model4 = ""
+	private var model4 = "mwenfjwefm"
 }
 
 
