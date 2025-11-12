@@ -13,15 +13,15 @@ protocol TopLeadingViewModel: ObservableObject {
 	func changeTopLeadingState(_ string: String)
 }
 
-//protocol TopTrailingViewModel: ObservableObject {
-//	var topTrailingState: String { get }
-//	func changeTopTrailingState(_ string: String)
-//}
-//
-//protocol BottomLeadingViewModel: ObservableObject {
-//	var bottomLeadingState: String { get }
-//	func changeBottomLeadingState(_ string: String)
-//}
+protocol TopTrailingViewModel: ObservableObject {
+	var topTrailingState: String { get }
+	func changeTopTrailingState(_ string: String)
+}
+
+protocol BottomLeadingViewModel: ObservableObject {
+	var bottomLeadingState: String { get }
+	func changeBottomLeadingState(_ string: String)
+}
 
 protocol BottomTrailingViewModel: ObservableObject {
 	var bottomTrailingState: String { get }
