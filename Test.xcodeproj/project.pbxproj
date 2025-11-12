@@ -54,6 +54,23 @@
 		BCF65DBA2EB62D9F00F8254A /* Views.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Views.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BC0B4BDB2EC4BD9E0098CEF8 /* Exceptions for "434353534" folder in "Test" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ViewModel.swift,
+			);
+			target = BC87C18D2EA4CE0B0009368A /* Test */;
+		};
+		BC0B4BDC2EC4BD9E0098CEF8 /* Exceptions for "434353534" folder in "434353534" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ViewModel.swift,
+			);
+			target = BC0B4BCF2EC4BCF50098CEF8 /* 434353534 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BC0B4BC02EC4BCEE0098CEF8 /* 123321 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -62,6 +79,10 @@
 		};
 		BC0B4BD12EC4BCF50098CEF8 /* 434353534 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BC0B4BDB2EC4BD9E0098CEF8 /* Exceptions for "434353534" folder in "Test" target */,
+				BC0B4BDC2EC4BD9E0098CEF8 /* Exceptions for "434353534" folder in "434353534" target */,
+			);
 			path = 434353534;
 			sourceTree = "<group>";
 		};
